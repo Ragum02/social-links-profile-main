@@ -86,11 +86,20 @@ color: black;
 
 }
 @media (max-width: 1920px) and (min-width: 768px) {
-    .profil-wrapper {
-        width: 40vh;
-        height: 70vh;
+        .profil-wrapper {
+            width: 40vh;
+            height: 75vh;
+        }
+    p {
+            transform: translate(10px, 20px);
+            margin-bottom: 10px;
+            /* font-size: 1.5rem; */
     }
-}
+    button {
+            margin-top: 5px;
+    }
+ }
+
 
 @media (max-width: 425px) and (min-width: 320px){
     .profil-wrapper {
