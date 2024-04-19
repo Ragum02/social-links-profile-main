@@ -85,13 +85,13 @@ color: black;
     transform: translate(-50%, 0);
 
 }
-@media (max-width: 1920px) and (min-width: 782px){
+@media (min-width: 782px){
     .profil-wrapper {
         width: 40vh;
         height: 70vh;
     }
 }
-@media (max-width: 425px) and (min-width: 325px){
+@media (max-width: 425px) and (min-width: 320px){
     .profil-wrapper {
         width: 90%;
         height: 90%;
